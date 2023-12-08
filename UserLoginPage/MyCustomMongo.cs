@@ -24,7 +24,8 @@ namespace MyCustomMongoQuery
         {
             try
             {
-                const string connectionUri = "mongodb+srv://ex_nihilo:000006rS%40md@loginpage.thfc1pi.mongodb.net/?retryWrites=true&w=majority";
+                const string connectionUri = "mongodb+srv://aponrpi991:123456ap@cluster0.chedq0s.mongodb.net/?retryWrites=true&w=majority";
+                // const string connectionUri = "mongodb+srv://ex_nihilo:000006rS%40md@loginpage.thfc1pi.mongodb.net/?retryWrites=true&w=majority";
                 var settings = MongoClientSettings.FromConnectionString(connectionUri);
                 settings.ServerApi = new ServerApi(ServerApiVersion.V1);
                 _client = new MongoClient(settings);
